@@ -1,10 +1,18 @@
 import './lib/lib';
 
-$('button').on('click', function () {
-
-        $(this).toggleClass('active', 'ds');
-        console.log($(this));
-});
 
 
+
+
+// $('button').click(function (){
+//     $('div').eq(1).hide();
+// })
+//
+// $('div').click(function (){
+//     console.log($(this).index())
+// })
+
+console.log($('div').eq(2).find('.some'));
+
+// $('div').toggleAttribute('id', 'dssd')
 
