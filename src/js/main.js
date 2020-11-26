@@ -12,7 +12,9 @@ import './lib/lib';
 //     console.log($(this).index())
 // })
 
-console.log($('div').eq(2).find('.some'));
+// console.log($('div').eq(2).find('.some'));
 
 // $('div').toggleAttribute('id', 'dssd')
 
+// console.log($('.some').closest('.findme'))
+console.log($('.findme').siblings());
