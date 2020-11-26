@@ -17,4 +17,6 @@ import './lib/lib';
 // $('div').toggleAttribute('id', 'dssd')
 
 // console.log($('.some').closest('.findme'))
-console.log($('.findme').siblings());
+// console.log($('.findme').siblings());
+$('.findme').fadeOut(1800);
+$('button').fadeIn(3800);
