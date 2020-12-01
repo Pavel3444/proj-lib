@@ -22,6 +22,7 @@ $.prototype.animationOverTime = function (dur, cb, fin) {
     return _animationOverTime;
 };
 
+
 $.prototype.fadeIn = function (dur, display, fin) {
     for (let i = 0; i < this.length; i++) {
         this[i].style.display = display || 'block';
